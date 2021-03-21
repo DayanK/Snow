@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document für die Links der Auron Lightbox Präsentation */
+
+
+.auron_flex{display: flex;
+flex-wrap: wrap;}
+
+.auron_flex a{background-color: rgba(247,245,9,1.00);
+width: 127.25px;
+height: 100px;
+margin-bottom: 15px;
+margin-right: 15px;
+opacity: 0.8;
+background-size: cover;
+background-position: center;
+color: transparent;}
+
+.auron_flex a:nth-of-type(4n){margin-right: 0;}
+
+.auron_flex a:hover{background-color: rgba(244,173,241,1.00);
+opacity: 1;}
+
+.auron_flex a:nth-of-type(1){background-image: url("../02_frankreich/seealpen/auron_pic/auron01.jpg");}
+.auron_flex a:nth-of-type(2){background-image: url("../02_frankreich/seealpen/auron_pic/auron02.jpg");}
+.auron_flex a:nth-of-type(3){background-image: url("../02_frankreich/seealpen/auron_pic/auron03.jpg");}
+.auron_flex a:nth-of-type(4){background-image: url("../02_frankreich/seealpen/auron_pic/auron04.jpg");}
+.auron_flex a:nth-of-type(5){background-image: url("../02_frankreich/seealpen/auron_pic/auron05.jpg");}
+.auron_flex a:nth-of-type(6){background-image: url("../02_frankreich/seealpen/auron_pic/auron06.jpg");}
+.auron_flex a:nth-of-type(7){background-image: url("../02_frankreich/seealpen/auron_pic/auron07.jpg");}
+.auron_flex a:nth-of-type(8){background-image: url("../02_frankreich/seealpen/auron_pic/auron08.jpg");}
+.auron_flex a:nth-of-type(9){background-image: url("../02_frankreich/seealpen/auron_pic/auron09.jpg");}
+.auron_flex a:nth-of-type(10){background-image: url("../02_frankreich/seealpen/auron_pic/auron10.jpg");}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document für die Sitemap der Snowboardschule */
+
+
+#content{background-image: url("../img/motiv_sitemap.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: right;}
+
+#content ul{list-style-type: disc;}
+
+#content a{color:#001463;}
+
+#content a:hover{font-weight: bold;}
+
+#content a:visited{color:#001463;}

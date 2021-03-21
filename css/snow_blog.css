@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document für den Snowboard Fun Blog */
+
+#blog_wrapper{ background-color: rgba(0,0,0,0.00);
+min-width: 500px;
+max-width: 940px;
+min-height: 200px;
+margin: 50px auto;}
+
+#spalte_links, #spalte_rechts{
+	float: left;
+	padding: 15px;
+}
+
+#spalte_links{background-color: #d3e2f9;
+color:#001463;
+width: 70%;}
+
+.blogbeitrag{background-color: rgba(95,224,14,0.0);
+padding-bottom: 15px;	
+border-bottom: 1px solid #001463;
+	
+margin-bottom: 15px;
+overflow: auto;}
+
+.blogbeitrag h3{border-bottom: 1px solid #001463;}
+
+.rechts{float: right;}
+
+.beitrag_info, .beitrag_social{background-color: #dedede;
+margin-bottom: 15px;}
+
+.blogbeitrag img{width: 40%;
+height: auto;
+margin-right: 15px;	
+float: left;}
+
+.mehr_info{color:#fff;
+background-color: #001463;
+padding: 3px;	
+border-radius: 3px;}
+
+.mehr_info:hover{background-color: #364497;}
+
+#spalte_rechts{background-color: #364497;
+color:#fff;
+width: 30%;}
+
+#info_bottom_text{margin-bottom: 10px;}
+
+#spalte_rechts a{color: #fff;}
